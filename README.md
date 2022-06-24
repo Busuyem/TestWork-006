@@ -1,5 +1,8 @@
-HOW TO GET THE PROJECT RUNNING ON YOUR MACHINE
+<h3>HOW TO GET THE PROJECT RUNNING ON YOUR MACHINE</h3>
 
+<p>NOTE: APP_KEY is </b>ABCDEF</b></p>
+
+<p>
 1) Clone the project and follow the following
 
     a) cd into the project folder and run composer update
@@ -8,8 +11,9 @@ HOW TO GET THE PROJECT RUNNING ON YOUR MACHINE
     d) run php artisan serv
     e) create a database and suply the name in .env file
     f) run php artisan migrate
+</p>
 
-
+<p>
 2) User Endpoints
 
     a) GET all the users endpoint
@@ -27,6 +31,9 @@ HOW TO GET THE PROJECT RUNNING ON YOUR MACHINE
         http://127.0.0.1:8001/api/users/{userId}/role/{roleId}
     g) GET http://127.0.0.1:8001/api/users/search?search={parameter}
 
+</p>
+
+<p>
 3) Role Endpoints
     a)  GET all roles
         GET http://127.0.0.1:8001/api/roles
@@ -40,6 +47,11 @@ HOW TO GET THE PROJECT RUNNING ON YOUR MACHINE
     e)  DELETE a role
         http://127.0.0.1:8001/api/roles/{id}
 
+</p>
+
+<p>
 Note: Ensure to change the port to your localhost.
 
 Thanks.
+
+</p>
