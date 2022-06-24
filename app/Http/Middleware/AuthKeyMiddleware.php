@@ -21,7 +21,7 @@ class AuthKeyMiddleware
         if($token != 'ABCDEF'){
             return response()->json([
                 'status_code' => 401,
-                'error' => 'App key not foubd'
+                'error' => 'App key not found'
             ]);
         }
         return $next($request);
